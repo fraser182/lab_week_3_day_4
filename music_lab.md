@@ -13,6 +13,14 @@ In their console they would like to be able to:
 
 Every artist should have a name, and each album should have a name/title, genre and artist ID.
 
+## Setup and Run
+
+```
+createdb music_collection 
+psql -d smusic_collection -f db/music_collection.sql 
+ruby console.rb
+```
+
 ## Further tasks
 
 Additionally it would be nice to be able to:
